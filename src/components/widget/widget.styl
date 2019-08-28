@@ -1,0 +1,50 @@
+.pt-widget 
+    position relative
+    height 100%
+
+    .widget
+        &--header
+            margin 0
+            font-size 16px
+            line-height 16px
+            color #522974
+            font-weight normal
+
+        &--gain
+            font-size 16px
+            line-height 16px
+            color gray
+        
+        &--currency
+            font-size 12px
+            line-height 12px
+            color gray
+            position absolute
+            top 0
+            right 0
+    
+
+    .sparkline
+        stroke #14ad53
+        fill transparent
+        stroke-width 2
+
+        &--container
+            flex 1
+
+    .sparkline--tooltip 
+        visibility hidden
+        position absolute
+        background rgba(#522974, .8)
+        color #fff
+        padding 2px 5px
+        font-size 12px
+        white-space nowrap
+        z-index 9999
+    
+    .sparkline--cursor 
+        stroke #efefef
+    
+    .sparkline--spot 
+        fill #522974
+        stroke #522974

@@ -1,0 +1,12 @@
+{
+  "entries": [
+    "components\\widget\\widget.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.2.5",
+    "typescriptVersion": "3.5.3"
+  },
+  "collections": [],
+  "bundles": []
+}

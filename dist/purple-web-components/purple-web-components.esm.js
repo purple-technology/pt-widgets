@@ -1,0 +1,1 @@
+import{p as e,b as a}from"./p-f473413c.js";e().then(e=>a([["p-ixobtsbb",[[0,"pt-widget",{class:[1],strategy:[1],height:[1],width:[32],data:[32],name:[32],currency:[32],gain:[32]},[[9,"resize","handleWindowResize"]]]]]],e));

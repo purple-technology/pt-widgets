@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-airbnb-base",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier",
+    "tslint-eslint-rules"
+  ],
+  "rules": {
+    "no-constant-condition": true,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "indent": [true, "spaces", 2],
+    "object-curly-spacing": [true, "error", "never"],
+    "whitespace": [true, "check-branch", "check-operator", "check-typecast", "check-type-operator", "check-rest-spread", "check-separator"],
+    "space-in-parens": [true, "never"]
+  }
+}
