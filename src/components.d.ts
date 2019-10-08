@@ -14,6 +14,12 @@ export namespace Components {
     'height': string;
     'strategy': string;
   }
+  interface PtWidgetPage {
+    'chartId': string;
+    'class': string;
+    'height': string;
+    'strategy': string;
+  }
 }
 
 declare global {
@@ -24,8 +30,15 @@ declare global {
     prototype: HTMLPtWidgetElement;
     new (): HTMLPtWidgetElement;
   };
+
+  interface HTMLPtWidgetPageElement extends Components.PtWidgetPage, HTMLStencilElement {}
+  var HTMLPtWidgetPageElement: {
+    prototype: HTMLPtWidgetPageElement;
+    new (): HTMLPtWidgetPageElement;
+  };
   interface HTMLElementTagNameMap {
     'pt-widget': HTMLPtWidgetElement;
+    'pt-widget-page': HTMLPtWidgetPageElement;
   }
 }
 
@@ -35,9 +48,16 @@ declare namespace LocalJSX {
     'height'?: string;
     'strategy'?: string;
   }
+  interface PtWidgetPage extends JSXBase.HTMLAttributes<HTMLPtWidgetPageElement> {
+    'chartId'?: string;
+    'class'?: string;
+    'height'?: string;
+    'strategy'?: string;
+  }
 
   interface IntrinsicElements {
     'pt-widget': PtWidget;
+    'pt-widget-page': PtWidgetPage;
   }
 }
 

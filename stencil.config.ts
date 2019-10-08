@@ -1,5 +1,6 @@
 import {Config} from '@stencil/core'
 import {stylus} from '@stencil/stylus'
+import nodePolyfills from 'rollup-plugin-node-polyfills'
 
 export const config: Config = {
   namespace: 'purple-web-components',
@@ -18,6 +19,7 @@ export const config: Config = {
   ],
   preamble: 'Purple Technology',
   plugins: [
+    nodePolyfills(),
     stylus({
       includePaths: [
         'src/globals'

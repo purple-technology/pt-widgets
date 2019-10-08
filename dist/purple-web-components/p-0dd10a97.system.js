@@ -1,1 +1,0 @@
-System.register(["./p-004bf627.system.js"],function(){"use strict";var e,t;return{setters:[function(n){e=n.p;t=n.b}],execute:function(){e().then(function(e){return t([["p-ge7f8kx2.system",[[0,"pt-widget",{class:[1],strategy:[1],height:[1],width:[32],data:[32],name:[32],currency:[32],gain:[32]},[[9,"resize","handleWindowResize"]]]]]],e)})}}});
