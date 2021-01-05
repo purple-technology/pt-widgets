@@ -32,7 +32,7 @@
     "@amcharts/amcharts4": "^4.5.16",
     "@stencil/stylus": "^1.0.0",
     "@types/core-js": "^2.5.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^3.2.1",
     "debounce-decorator": "^1.0.6"
   },
